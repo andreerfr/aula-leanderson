@@ -6,7 +6,29 @@
     <title>IF- Else</title>
 </head>
 <body>
-    ano = int;
-    
+    Atividade 01 
+
+    num1 = int(input("Fale um número: "))
+num2 = int(input("Fale um segundo número: "))
+decisao = int(input("Escolha uma operação: 1 para somar, 2 para subtrair, 3 para dividir, 4 para multiplicar: "))
+if decisao == 1:
+  conta = int(input(num1+num2))
+  print("Seu resultado é:")
+  print(conta)
+elif decisao == 2:
+  conta = int(input(num1-num2))
+  print("Seu resultado é:")
+  print(conta)
+  if decisao == 3:
+  conta = int(input(num1/num2))
+  print("Seu resultado é:")
+  print(conta)
+  if decisao == 4:
+  conta = int(input(num1*num2))
+  print("Seu resultado é:")
+  print(conta)
+  else:
+    print("Não consta essa decisão")
+
 </body>
 </html>
