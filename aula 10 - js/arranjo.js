@@ -23,5 +23,6 @@ tabuleiroJogoDaVelha = [
 for(var i = 0; i < tabuleiroJogoDaVelha.lenght; i++) {
     for (var j = 0; j < tabuleiroJogoDaVelha[i].lenght; j++) {
         console.log(tabuleiroJogoDaVelha[i][j]);
+        //no lugar de console.log da de usar process.stdout.write pra não pular linha
     }
 }
