@@ -38,3 +38,9 @@ do{
 for (var j = 0; j < 5; j++){
     console.log(j);
 }
+
+//lupe infinito (da de fazer mais facil com while
+
+for (;;) {
+console. log(".");
+}
