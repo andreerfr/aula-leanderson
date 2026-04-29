@@ -44,3 +44,8 @@ for (var j = 0; j < 5; j++){
 for (;;) {
 console. log(".");
 }
+
+//variavel tem identificador
+//e armazena apenas uma imformação
+var i = 10;
+
