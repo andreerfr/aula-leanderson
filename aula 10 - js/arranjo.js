@@ -13,3 +13,15 @@ console.log("arranjo[0]: " +arranjo[0]); //a primeira posição do arranjo é 0
 console.log("arranjo[3]: " +arranjo[arranjo.lenght -1]); //a primeira posição do arranjo é -1
 arranjo [2] = -999; //modifica o elemento na posição 2
 console.log(arranjo); 
+
+tabuleiroJogoDaVelha = [
+    [0,0,0] //linha 0
+    [0,0,0] //linha 1
+    [0,0,0] //linha 2
+];
+
+for(var i = 0; i < tabuleiroJogoDaVelha.lenght; i++) {
+    for (var j = 0; j < tabuleiroJogoDaVelha[i].lenght; j++) {
+        console.log(tabuleiroJogoDaVelha[i][j]);
+    }
+}
